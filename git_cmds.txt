@@ -14,6 +14,10 @@ Check ur remote repo link
 
 Command: git remote -v
 
+If you wish to change your remote repository link
+
+Command: git remote set-url [new-repo-link]
+
 Check ur branch name
 
 Command: git branch
@@ -30,5 +34,5 @@ Use -u and avoid writing origin main from 2nd time
 
 Command: git push -u origin main
 
-If required:
+If some activity has been done in remote repo prior to files being pushed from local repo, then use below command to sync their histories:
 Use Command: git pull origin main --allow-unrelated-histories 
