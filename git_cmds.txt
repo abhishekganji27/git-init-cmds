@@ -1,0 +1,38 @@
+Initializing a git repo from PS
+
+Command: git init
+
+Command: git add .
+
+Command: git commit -m "msg"
+
+Add ur local repo to github
+
+Command: git remote add origin [repo_link]
+
+Check ur remote repo link
+
+Command: git remote -v
+
+If you wish to change your remote repository link
+
+Command: git remote set-url [new-repo-link]
+
+Check ur branch name
+
+Command: git branch
+
+Rename branch as main
+
+Command: git branch -M main
+
+Push the local repo to github
+
+Command: git push origin main
+
+Use -u and avoid writing origin main from 2nd time
+
+Command: git push -u origin main
+
+If some activity has been done in remote repo prior to files being pushed from local repo, then use below command to sync their histories:
+Use Command: git pull origin main --allow-unrelated-histories 
